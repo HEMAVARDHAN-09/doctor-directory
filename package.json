@@ -1,0 +1,17 @@
+{
+  "name": "doctor-directory-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-memory REST API for managing doctor profiles",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
